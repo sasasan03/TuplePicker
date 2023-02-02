@@ -14,6 +14,8 @@
 		6947E54A29891C03009294D3 /* PassArrayvalueBySheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947E54929891C03009294D3 /* PassArrayvalueBySheetTests.swift */; };
 		6947E55429891C03009294D3 /* PassArrayvalueBySheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947E55329891C03009294D3 /* PassArrayvalueBySheetUITests.swift */; };
 		6947E55629891C03009294D3 /* PassArrayvalueBySheetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947E55529891C03009294D3 /* PassArrayvalueBySheetUITestsLaunchTests.swift */; };
+		6947E56329891C34009294D3 /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947E56229891C34009294D3 /* ColorData.swift */; };
+		6947E565298922FF009294D3 /* ColorEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947E564298922FF009294D3 /* ColorEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		6947E54F29891C03009294D3 /* PassArrayvalueBySheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassArrayvalueBySheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6947E55329891C03009294D3 /* PassArrayvalueBySheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassArrayvalueBySheetUITests.swift; sourceTree = "<group>"; };
 		6947E55529891C03009294D3 /* PassArrayvalueBySheetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassArrayvalueBySheetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6947E56229891C34009294D3 /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
+		6947E564298922FF009294D3 /* ColorEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEditView.swift; sourceTree = "<group>"; };
+		6947E56629892E2A009294D3 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,9 @@
 			children = (
 				6947E53829891C00009294D3 /* PassArrayvalueBySheetApp.swift */,
 				6947E53A29891C00009294D3 /* ContentView.swift */,
+				6947E564298922FF009294D3 /* ColorEditView.swift */,
+				6947E56229891C34009294D3 /* ColorData.swift */,
+				6947E56629892E2A009294D3 /* MyPlayground.playground */,
 				6947E53C29891C03009294D3 /* Assets.xcassets */,
 				6947E53E29891C03009294D3 /* Preview Content */,
 			);
@@ -259,6 +267,8 @@
 			files = (
 				6947E53B29891C00009294D3 /* ContentView.swift in Sources */,
 				6947E53929891C00009294D3 /* PassArrayvalueBySheetApp.swift in Sources */,
+				6947E565298922FF009294D3 /* ColorEditView.swift in Sources */,
+				6947E56329891C34009294D3 /* ColorData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
